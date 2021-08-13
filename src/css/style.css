@@ -296,12 +296,19 @@ display: none;
     }
 }
 
-@media  screen and (max-width:700px) {
-    .ts-1,ts-2
-        font-size:30px;
-        margin-left:10rem;
+@media  screen and (max-width:900px) {
+    .ts-1,.ts-2{
+        font-size: 30px;
+        margin-left: 5rem;
     }
+   }
+@media  screen and (max-width:1100px) {
+ .ts-1,.ts-2{
+     font-size: 30px;
+     margin-left: 10rem;
+ }
 }
+
     @media  screen and (max-width:500px) {
         
         .footer{
